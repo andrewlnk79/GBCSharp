@@ -2,7 +2,7 @@
 
 Main();
 
-void Main()
+static void Main()
 {
     int num1 = 0;
     int num2 = 0;
@@ -15,6 +15,8 @@ void Main()
     {
         Console.WriteLine("нужно вводить число");
     }
+
+    Console.WriteLine("введите число2-конец");
 
     try
     {
