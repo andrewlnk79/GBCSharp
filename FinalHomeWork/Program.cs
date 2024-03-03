@@ -28,4 +28,6 @@ static void Main()
     }
 
     new Task1().RecursionPrint(num1, num2);
+
+    Console.WriteLine(new Task2().AkkermanFunction(num1, num2));
 }

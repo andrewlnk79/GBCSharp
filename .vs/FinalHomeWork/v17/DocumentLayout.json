@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A1981AD4-D241-4D79-9AC8-C92320524B14}|FinalHomeWork\\FinalHomeWork.csproj|c:\\code\\gbcsharp\\finalhomework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1981AD4-D241-4D79-9AC8-C92320524B14}|FinalHomeWork\\FinalHomeWork.csproj|solutionrelative:finalhomework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1981AD4-D241-4D79-9AC8-C92320524B14}|FinalHomeWork\\FinalHomeWork.csproj|c:\\code\\gbcsharp\\finalhomework\\task2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1981AD4-D241-4D79-9AC8-C92320524B14}|FinalHomeWork\\FinalHomeWork.csproj|solutionrelative:finalhomework\\task2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -176,7 +180,7 @@
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -200,13 +204,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Task2.cs",
+              "DocumentMoniker": "C:\\Code\\GBCsharp\\FinalHomeWork\\Task2.cs",
+              "RelativeDocumentMoniker": "FinalHomeWork\\Task2.cs",
+              "ToolTip": "C:\\Code\\GBCsharp\\FinalHomeWork\\Task2.cs",
+              "RelativeToolTip": "FinalHomeWork\\Task2.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA4wBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T06:50:05.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Code\\GBCsharp\\FinalHomeWork\\Program.cs",
               "RelativeDocumentMoniker": "FinalHomeWork\\Program.cs",
               "ToolTip": "C:\\Code\\GBCsharp\\FinalHomeWork\\Program.cs",
               "RelativeToolTip": "FinalHomeWork\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAA/wB8AAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-03T06:45:38.763Z",
               "EditorCaption": ""
