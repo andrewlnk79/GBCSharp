@@ -1,4 +1,5 @@
-﻿using FinalHomeWork;
+﻿using System.Threading.Channels;
+using FinalHomeWork;
 
 Main();
 
@@ -33,7 +34,11 @@ static void Main()
     Console.WriteLine("ниже все про массив:");
 
     Task3 task3 = new Task3();
-    int index = task3.LastIndexArray(task3.CreateArray(task3.ConsoleReadArraySize()));
-    task3.PrintArray(task3.CreateArray(task3.ConsoleReadArraySize()));
-    task3.ReversArray(task3.CreateArray(task3.ConsoleReadArraySize()), index);
+    int Size = task3.ConsoleReadArraySize();
+    int index = task3.LastIndexArray(task3.CreateArray(Size));
+    Console.WriteLine("index=" + index);
+    Console.WriteLine("получили массив:");
+    task3.PrintArray(task3.CreateArray(Size));
+    Console.WriteLine("развернули массив:");
+    task3.ReversArray(task3.CreateArray(Size), index);
 }

@@ -4,14 +4,14 @@ namespace FinalHomeWork;
 
 public class Task3
 {
-    public int size = 0;
+    public int size { get; set; }
 
     public int ConsoleReadArraySize()
     {
         Console.WriteLine("введите размер массива");
         try
         {
-            int size = Convert.ToInt32(Console.ReadLine());
+            size = Convert.ToInt32(Console.ReadLine());
         }
         catch (Exception)
         {
@@ -21,13 +21,14 @@ public class Task3
         return size;
     }
 
+
     public int[] CreateArray(int size)
     {
         Random rnd = new Random();
-        int[] array = new int[this.size];
-        for (int i = 0; i < array.Length; i++)
+        int[] array = new int[size];
+        for (int i = 0; i < size; i++)
         {
-            array[i] = rnd.Next(1, 100);
+            array[i] = rnd.Next(1, 10);
         }
 
         return array;
@@ -35,9 +36,9 @@ public class Task3
 
     public void PrintArray(int[] array)
     {
-        foreach (var it in array)
+        for (int i = 0; i < array.Length; i++)
         {
-            Console.WriteLine(it);
+            Console.Write(i + " ");
         }
     }
 
@@ -51,9 +52,9 @@ public class Task3
 
     public void ReversArray(int[] array, int index)
     {
-        if (this.index < 0)
+        if (index <= 0)
             return;
-        Console.Write(array[this.index]
+        Console.Write(array[index]
                       + " ");
         ReversArray(array, index - 1);
     }
