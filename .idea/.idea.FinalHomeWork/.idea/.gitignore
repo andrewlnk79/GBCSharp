@@ -4,8 +4,13 @@
 # Rider ignored files
 /.idea.FinalHomeWork.iml
 /modules.xml
+<<<<<<< HEAD
 /contentModel.xml
 /projectSettingsUpdater.xml
+=======
+/projectSettingsUpdater.xml
+/contentModel.xml
+>>>>>>> origin/main
 # Editor-based HTTP Client requests
 /httpRequests/
 # Datasource local storage ignored files
