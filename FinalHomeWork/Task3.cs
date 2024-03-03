@@ -41,12 +41,13 @@ public class Task3
         }
     }
 
-    public int index;
+    public int index { get; set; }
 
     public int LastIndexArray(int[] array)
     {
         return index = array.Length - 1;
     }
+
 
     public void ReversArray(int[] array, int index)
     {

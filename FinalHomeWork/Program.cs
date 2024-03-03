@@ -30,4 +30,10 @@ static void Main()
     new Task1().RecursionPrint(num1, num2);
     Console.WriteLine("nфункция аккермана:");
     Console.WriteLine(new Task2().AkkermanFunction(num1, num2));
+    Console.WriteLine("ниже все про массив:");
+
+    Task3 task3 = new Task3();
+    int index = task3.LastIndexArray(task3.CreateArray(task3.ConsoleReadArraySize()));
+    task3.PrintArray(task3.CreateArray(task3.ConsoleReadArraySize()));
+    task3.ReversArray(task3.CreateArray(task3.ConsoleReadArraySize()), index);
 }
