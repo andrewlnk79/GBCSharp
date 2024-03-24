@@ -39,6 +39,6 @@ static void Main()
     Console.WriteLine("index=" + index);
     Console.WriteLine("получили массив:");
     task3.PrintArray(task3.CreateArray(Size));
-    Console.WriteLine("развернули массив:");
+    Console.WriteLine("\nразвернули массив:");
     task3.ReversArray(task3.CreateArray(Size), index);
 }
