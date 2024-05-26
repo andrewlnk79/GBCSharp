@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DiveCsharp1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea86b6e92c90ee078d6549eb32bbea3faef5abe3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56df8d8c70257c536252a2f71a1c857f8d7287af")]
 [assembly: System.Reflection.AssemblyProductAttribute("DiveCsharp1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DiveCsharp1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

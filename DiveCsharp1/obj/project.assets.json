@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\GB\\DiveCsharp1\\DiveCsharp1.csproj",
+      "projectUniqueName": "C:\\Code\\GBCsharp\\DiveCsharp1\\DiveCsharp1.csproj",
       "projectName": "DiveCsharp1",
-      "projectPath": "C:\\Code\\GB\\DiveCsharp1\\DiveCsharp1.csproj",
+      "projectPath": "C:\\Code\\GBCsharp\\DiveCsharp1\\DiveCsharp1.csproj",
       "packagesPath": "C:\\Users\\anlin\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\GB\\DiveCsharp1\\obj\\",
+      "outputPath": "C:\\Code\\GBCsharp\\DiveCsharp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
