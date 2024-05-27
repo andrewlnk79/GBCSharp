@@ -9,13 +9,13 @@ namespace DiveCsharp1
         static void Main(string[] args)
             {
 
-           
+
             if (args.Length == 3)
                 {
 
-                var number1 = int.Parse(args[0]);
+                var number1 = Convert.ToInt32(int.Parse(args[0]));
                 var operation = args[1];
-                var number2 = int.Parse(args[2]);
+                var number2 = Convert.ToInt32(int.Parse(args[2]));
                 int result = 0;
                 switch (operation)
                     {
