@@ -33,7 +33,7 @@ namespace DiveCsharp1
                         break;
 
                     }
-                Console.WriteLine("результат=" + result);
+                Console.WriteLine($"результатоперации{operation}={result}");
                 }
             else
                 {
