@@ -1,4 +1,6 @@
-﻿namespace DiveCsharp1
+﻿using System.Runtime.InteropServices;
+
+namespace DiveCsharp1
     {
     internal class Program
         {
@@ -7,7 +9,7 @@
         static void Main(string[] args)
             {
 
-            //вариант задания аргументов чере командную строку
+           
             if (args.Length == 3)
                 {
 
@@ -37,7 +39,7 @@
                 {
                 Console.WriteLine("введены неверные значения");
                 }
-            // вариант ввода значений через консоль
+
 
             }
         }
