@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\GBCsharp\\DiveCsharp1\\DiveCsharp1.csproj": {}
+    "C:\\CODE\\GBCsharp\\DiveCsharp1\\DiveCsharp1.csproj": {}
   },
   "projects": {
-    "C:\\Code\\GBCsharp\\DiveCsharp1\\DiveCsharp1.csproj": {
+    "C:\\CODE\\GBCsharp\\DiveCsharp1\\DiveCsharp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\GBCsharp\\DiveCsharp1\\DiveCsharp1.csproj",
+        "projectUniqueName": "C:\\CODE\\GBCsharp\\DiveCsharp1\\DiveCsharp1.csproj",
         "projectName": "DiveCsharp1",
-        "projectPath": "C:\\Code\\GBCsharp\\DiveCsharp1\\DiveCsharp1.csproj",
+        "projectPath": "C:\\CODE\\GBCsharp\\DiveCsharp1\\DiveCsharp1.csproj",
         "packagesPath": "C:\\Users\\anlin\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\GBCsharp\\DiveCsharp1\\obj\\",
+        "outputPath": "C:\\CODE\\GBCsharp\\DiveCsharp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -9,7 +9,6 @@ namespace DiveCsharp1
         static void Main(string[] args)
             {
 
-
             if (args.Length == 3)
                 {
 
@@ -17,6 +16,9 @@ namespace DiveCsharp1
                 var operation = args[1];
                 var number2 = Convert.ToInt32(args[2]);
                 int result = 0;
+                
+                
+                
                 switch (operation)
                     {
                     case "+":
