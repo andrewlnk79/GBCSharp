@@ -4,17 +4,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FamalyTreeConsoleApp
+namespace FamalyTreeConsoleApp;
+
+internal class FamalyMamber
     {
-    internal class FAmalyMamber
+    internal int Age { get; set; }
+    internal string FullName { get; set; }
+    internal Gender Gender { get; set; }
+    internal FamalyMamber Mother { get; set; }
+    internal FamalyMamber Father { get; set; }
+
+    internal FamalyMamber[] GetGrandFathers()
         {
-        internal int Age { get; set; }
-        internal string FullName { get; set; }
-        internal Gender Gender { get; set; }
+        return new[] { Father.Father, Mother.Father };
         }
-    internal enum Gender
+
+    internal FamalyMamber[] GetGrandMothers()
         {
-        male,
-        female
+        return new[] { Mother.Mother, Father.Mother };
         }
+
     }
+
+internal enum Gender
+    {
+    male,
+    female
+    }
+
+
