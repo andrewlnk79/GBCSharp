@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\CODE\\GBCsharp\\FamalyTreeConsoleApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB849B84-ACD2-48B1-BF20-D27E964C4276}|FamalyTreeConsoleApp.csproj|c:\\code\\gbcsharp\\famalytreeconsoleapp\\famalymamber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB849B84-ACD2-48B1-BF20-D27E964C4276}|FamalyTreeConsoleApp.csproj|solutionrelative:famalymamber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CB849B84-ACD2-48B1-BF20-D27E964C4276}|FamalyTreeConsoleApp.csproj|c:\\code\\gbcsharp\\famalytreeconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB849B84-ACD2-48B1-BF20-D27E964C4276}|FamalyTreeConsoleApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB849B84-ACD2-48B1-BF20-D27E964C4276}|FamalyTreeConsoleApp.csproj|c:\\code\\gbcsharp\\famalytreeconsoleapp\\famalymamber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB849B84-ACD2-48B1-BF20-D27E964C4276}|FamalyTreeConsoleApp.csproj|solutionrelative:famalymamber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,26 +26,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FAmalyMamber.cs",
-              "DocumentMoniker": "C:\\CODE\\GBCsharp\\FamalyTreeConsoleApp\\FAmalyMamber.cs",
-              "RelativeDocumentMoniker": "FAmalyMamber.cs",
-              "ToolTip": "C:\\CODE\\GBCsharp\\FamalyTreeConsoleApp\\FAmalyMamber.cs",
-              "RelativeToolTip": "FAmalyMamber.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAIBGwA0AAAAJAAAA",
+              "DocumentMoniker": "C:\\CODE\\GBCsharp\\FamalyTreeConsoleApp\\FamalyMamber.cs",
+              "RelativeDocumentMoniker": "FamalyMamber.cs",
+              "ToolTip": "C:\\CODE\\GBCsharp\\FamalyTreeConsoleApp\\FamalyMamber.cs",
+              "RelativeToolTip": "FamalyMamber.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAABEwBMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T14:55:25.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\CODE\\GBCsharp\\FamalyTreeConsoleApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\CODE\\GBCsharp\\FamalyTreeConsoleApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAaAAAA",
+              "ToolTip": "C:\\CODE\\GBCsharp\\FamalyTreeConsoleApp\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AQIAAC0AAAAAAAAAAIBFwDkAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T14:54:37.457Z",
               "EditorCaption": ""

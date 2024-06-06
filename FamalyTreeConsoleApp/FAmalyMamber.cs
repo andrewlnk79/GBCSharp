@@ -16,12 +16,12 @@ internal class FamalyMamber
 
     internal FamalyMamber[] GetGrandFathers()
         {
-        return new[] { Father.Father, Mother.Father };
+        return new[] { Father?.Father, Mother?.Father };
         }
 
     internal FamalyMamber[] GetGrandMothers()
         {
-        return new[] { Mother.Mother, Father.Mother };
+        return new[] { Mother?.Mother, Father?.Mother };
         }
 
     }
