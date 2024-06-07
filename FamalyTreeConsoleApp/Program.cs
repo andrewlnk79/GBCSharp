@@ -66,30 +66,47 @@ internal class Program
         var grandMa = Son.GetGrandMothers();
         var grandPa = Son.GetGrandFathers();
         Console.WriteLine("Дедушки и бабушки:\n");
-        Console.WriteLine(grandMa[0]?.Name + " " + grandMa[0]?.Surname + " \n" + grandPa[0]?.Name + grandPa[0]?.Surname + " \n");
-        Console.WriteLine(grandMa[1]?.Name + " " + grandMa[1]?.Surname + " \n" + grandPa[1]?.Name + " " + grandPa[1]?.Surname + " \n");
+        Console.WriteLine(grandMa[0]?.Name + " " + grandMa[0]?.Surname + " \n" + grandPa[0]?.Name +
+                          grandPa[0]?.Surname + " \n");
+        Console.WriteLine(grandMa[1]?.Name + " " + grandMa[1]?.Surname + " \n" + grandPa[1]?.Name + " " +
+                          grandPa[1]?.Surname + " \n");
 
         List<FamalyMamber> famalyMambers = new List<FamalyMamber>();
         famalyMambers.Add(Mother);
         famalyMambers.Add(Father);
         famalyMambers.Add(Son);
 
-        var wife = famalyMambers.Select(w =>
-            w.Married && w.children && w.Gender == Gender.female && w.Age >= 20 && w.Surname.Contains(Son.Surname));
-        var husband = famalyMambers.Select(h =>
-            h.Married && h.children && h.Gender == Gender.male && h.Age >= 20 && h.Surname == Son.Surname).Order();
 
 
-        //foreach (var item in famalyMambers)
-        //    {
-        //    if (item.Married && item.children)
-        //        {
-        //if (Equals(Son?.Surname, Son?.Father.Surname) && Equals(Son?.Surname, Mother?.Surname.Contains(Son?.Surname)))
-        //    {
-        Console.WriteLine("Муж и жена" + husband + " " + wife);
+
+        //var wife = famalyMambers.Where(w =>
+        //    w.Married && w.children &&
+        //    w.Gender == Gender.female &&
+        //    w.Age >= 20 &&
+        //    w.Surname.Contains(Son.Surname)).FirstOrDefault();
+        //var husband = famalyMambers.Where(h =>
+        //    h.Married &&
+        //    h.children &&
+        //    h.Gender == Gender.male && h.Age >= 20 &&
+        //    h.Surname == Son.Surname).FirstOrDefault();
+
+        Console.WriteLine("Муж и жена\n");
+        foreach (var item in famalyMambers)
+            {
+            if (item.Married && item.children)
+                {
+                if (Equals(Son.Surname, Son.Father.Surname) &&
+                    Equals(Son.Surname, Mother.Surname.Contains(Son.Surname)))
+                    {
+                    Console.WriteLine("Муж :" + Son.Father.Name + " " + Son.Father.Surname + "\nжена:" +
+                                      Son.Mother.Name + " " + Son.Mother.Surname);
+                    }
+                }
+            }
         }
-
     }
+
+
 
 
 
