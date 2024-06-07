@@ -9,11 +9,13 @@ namespace FamalyTreeConsoleApp;
 internal class FamalyMamber
     {
     internal int Age { get; set; }
-    internal string FullName { get; set; }
+    internal string Name { get; set; }
+    internal string Surname { get; set; }
     internal Gender Gender { get; set; }
     internal FamalyMamber Mother { get; set; }
     internal FamalyMamber Father { get; set; }
-    internal bool MaritalStatus { get; set; } = false;
+    internal bool Married { get; set; } = false;
+    internal bool children { get; set; } = false;
 
     internal FamalyMamber?[] GetGrandFathers()
         {

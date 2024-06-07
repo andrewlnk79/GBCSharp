@@ -6,32 +6,36 @@ internal class Program
         {
         FamalyMamber GrandFather1 = new FamalyMamber()
             {
-            FullName = "Николай Иванов",
+            Name = "Николай Иванов",
             Age = 65,
             Gender = Gender.male
             };
         FamalyMamber GrandFather2 = new FamalyMamber()
             {
-            FullName = "Петр Петров",
+            Name = "Петр",
+            Surname = "Петров",
             Age = 55,
             Gender = Gender.male
 
             };
         FamalyMamber GrandMother1 = new FamalyMamber()
             {
-            FullName = "Любовь Иванова",
+            Name = "Любовь",
+            Surname = "Иванова",
             Age = 60,
             Gender = Gender.female
             };
         FamalyMamber GrandMother2 = new FamalyMamber()
             {
-            FullName = "Лариса Петрова",
+            Name = "Лариса",
+            Surname = "Петрова",
             Age = 54,
             Gender = Gender.female
             };
         FamalyMamber Father = new FamalyMamber()
             {
-            FullName = "Сергей Иванов",
+            Name = "Сергей",
+            Surname = "Иванов",
             Age = 35,
             Gender = Gender.male,
             Father = GrandFather1,
@@ -39,7 +43,8 @@ internal class Program
             };
         FamalyMamber Mother = new FamalyMamber()
             {
-            FullName = "Татьяна Иванова",
+            Name = "Татьяна",
+            Surname = "Иванова",
             Age = 30,
             Gender = Gender.female,
             Mother = GrandMother2,
@@ -47,7 +52,8 @@ internal class Program
             };
         FamalyMamber Son = new FamalyMamber()
             {
-            FullName = "Антон Иванов",
+            Name = "Антон",
+            Surname = "Иванов",
             Age = 19,
             Gender = Gender.male,
             Father = Father,
@@ -55,9 +61,20 @@ internal class Program
             };
         var grandMa = Son.GetGrandMothers();
         var grandPa = Son.GetGrandFathers();
-        Console.WriteLine(grandMa[0]?.FullName + " \n" + grandPa[0]?.FullName);
+        Console.WriteLine(grandMa[0]?.Name + " " + grandMa[0]?.Surname + " \n" + grandPa[0]?.Name + grandPa[0]?.Surname + " \n");
+        Console.WriteLine(grandMa[1]?.Name + " " + grandMa[1]?.Surname + " \n" + grandPa[1]?.Name + " " + grandPa[1]?.Surname);
 
+        List<FamalyMamber> famalyMambers = new List<FamalyMamber>();
+        famalyMambers.Add(Mother);
+        famalyMambers.Add(Father);
+        famalyMambers.Add(Son);
+        foreach (var item in famalyMambers)
+            {
+            if (item.Married)
+                {
 
+                }
+            }
 
         }
 
