@@ -71,40 +71,34 @@ internal class Program
         Console.WriteLine(grandMa[1]?.Name + " " + grandMa[1]?.Surname + " \n" + grandPa[1]?.Name + " " +
                           grandPa[1]?.Surname + " \n");
 
-        List<FamalyMamber> famalyMambers = new List<FamalyMamber>();
-        famalyMambers.Add(Mother);
-        famalyMambers.Add(Father);
-        famalyMambers.Add(Son);
+        List<FamalyMamber> famaly = new List<FamalyMamber>();
+        famaly.Add(Mother);
+        famaly.Add(Father);
+        // хотел привязаться к фамилии сына для поиска женатых, но получилась,полная белеберда
+        famaly.Add(Son);
+        var husband = famaly.Where(h => h.Gender == Gender.male && h.Married && h.Age >= 20 && h.children).FirstOrDefault();
+        Console.WriteLine($"Муж:{husband.Name} {husband.Surname}");
+        var wife = famaly.Where(w => w.Gender == Gender.female && w.Married && w.Age >= 20 && w.children).FirstOrDefault();
+        Console.WriteLine($"Жена:{wife.Name} {wife.Surname}");
 
 
 
 
-        //var wife = famalyMambers.Where(w =>
-        //    w.Married && w.children &&
-        //    w.Gender == Gender.female &&
-        //    w.Age >= 20 &&
-        //    w.Surname.Contains(Son.Surname)).FirstOrDefault();
-        //var husband = famalyMambers.Where(h =>
-        //    h.Married &&
-        //    h.children &&
-        //    h.Gender == Gender.male && h.Age >= 20 &&
-        //    h.Surname == Son.Surname).FirstOrDefault();
 
-        Console.WriteLine("Муж и жена\n");
-        foreach (var item in famalyMambers)
-            {
-            if (item.Married && item.children)
-                {
-                if (Equals(Son.Surname, Son.Father.Surname) &&
-                    Equals(Son.Surname, Mother.Surname.Contains(Son.Surname)))
-                    {
-                    Console.WriteLine("Муж :" + Son.Father.Name + " " + Son.Father.Surname + "\nжена:" +
-                                      Son.Mother.Name + " " + Son.Mother.Surname);
-                    }
-                }
-            }
+
         }
+
+
+
+
+
+
+  
+
     }
+
+
+
 
 
 

@@ -16,6 +16,8 @@ internal class FamalyMamber
     internal FamalyMamber Father { get; set; }
     internal bool Married { get; set; } = false;
     internal bool children { get; set; } = false;
+    internal FamalyMamber Husband { get; set; }
+    internal FamalyMamber Wife { get; set; }
 
     internal FamalyMamber?[] GetGrandFathers()
         {
