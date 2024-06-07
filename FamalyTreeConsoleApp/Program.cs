@@ -70,7 +70,7 @@ internal class Program
                           grandPa[0]?.Surname + " \n");
         Console.WriteLine(grandMa[1]?.Name + " " + grandMa[1]?.Surname + " \n" + grandPa[1]?.Name + " " +
                           grandPa[1]?.Surname + " \n");
-
+        Console.WriteLine("Женаты:");
         List<FamalyMamber> famaly = new List<FamalyMamber>();
         famaly.Add(Mother);
         famaly.Add(Father);
