@@ -15,12 +15,12 @@ internal class FamalyMamber
     internal FamalyMamber Father { get; set; }
     internal bool MaritalStatus { get; set; } = false;
 
-    internal FamalyMamber[] GetGrandFathers()
+    internal FamalyMamber?[] GetGrandFathers()
         {
         return new[] { Father?.Father, Mother?.Father };
         }
 
-    internal FamalyMamber[] GetGrandMothers()
+    internal FamalyMamber?[] GetGrandMothers()
         {
         return new[] { Mother?.Mother, Father?.Mother };
         }
