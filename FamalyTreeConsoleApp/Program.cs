@@ -46,7 +46,7 @@ internal class Program
         FamalyMamber Mother = new FamalyMamber()
             {
             Name = "Татьяна",
-            Surname = "Иванов",
+            Surname = "Иванова",
             Age = 30,
             Gender = Gender.female,
             Married = true,
@@ -57,7 +57,7 @@ internal class Program
         FamalyMamber Son = new FamalyMamber()
             {
             Name = "Антон",
-            Surname = "Иванова",
+            Surname = "Иванов",
             Age = 19,
             Gender = Gender.male,
             Father = Father,
