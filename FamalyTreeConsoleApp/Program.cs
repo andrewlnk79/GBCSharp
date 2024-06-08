@@ -1,16 +1,16 @@
-﻿namespace FamalyTreeConsoleApp;
+﻿namespace FamilyTreeConsoleApp;
 
 internal class Program
     {
     static void Main(string[] args)
         {
-        FamalyMamber GrandFather1 = new FamalyMamber()
+        FamilyMamber GrandFather1 = new FamilyMamber()
             {
             Name = "Николай Иванов",
             Age = 65,
             Gender = Gender.male
             };
-        FamalyMamber GrandFather2 = new FamalyMamber()
+        FamilyMamber GrandFather2 = new FamilyMamber()
             {
             Name = "Петр",
             Surname = "Петров",
@@ -18,21 +18,21 @@ internal class Program
             Gender = Gender.male
 
             };
-        FamalyMamber GrandMother1 = new FamalyMamber()
+        FamilyMamber GrandMother1 = new FamilyMamber()
             {
             Name = "Любовь",
             Surname = "Иванова",
             Age = 60,
             Gender = Gender.female
             };
-        FamalyMamber GrandMother2 = new FamalyMamber()
+        FamilyMamber GrandMother2 = new FamilyMamber()
             {
             Name = "Лариса",
             Surname = "Петрова",
             Age = 54,
             Gender = Gender.female
             };
-        FamalyMamber Father = new FamalyMamber()
+        FamilyMamber Father = new FamilyMamber()
             {
             Name = "Сергей",
             Surname = "Иванов",
@@ -43,7 +43,7 @@ internal class Program
             Father = GrandFather1,
             Mother = GrandMother1
             };
-        FamalyMamber Mother = new FamalyMamber()
+        FamilyMamber Mother = new FamilyMamber()
             {
             Name = "Татьяна",
             Surname = "Иванова",
@@ -54,7 +54,7 @@ internal class Program
             Mother = GrandMother2,
             Father = GrandFather2
             };
-        FamalyMamber Son = new FamalyMamber()
+        FamilyMamber Son = new FamilyMamber()
             {
             Name = "Антон",
             Surname = "Иванов",
@@ -71,14 +71,13 @@ internal class Program
         Console.WriteLine(grandMa[1]?.Name + " " + grandMa[1]?.Surname + " \n" + grandPa[1]?.Name + " " +
                           grandPa[1]?.Surname + " \n");
         Console.WriteLine("Женаты:");
-        List<FamalyMamber> famaly = new List<FamalyMamber>();
+        List<FamilyMamber> famaly = new List<FamilyMamber>();
         famaly.Add(Mother);
         famaly.Add(Father);
-        // хотел привязаться к фамилии сына для поиска женатых, но получилась,полная белеберда
         famaly.Add(Son);
-        var husband = famaly.Where(h => h.Gender == Gender.male && h.Married && h.Age >= 20 && h.children).FirstOrDefault();
+        var husband = famaly.FirstOrDefault(h => h.Gender == Gender.male && h.Married && h.Age >= 20 && h.children);
         Console.WriteLine($"Муж:{husband.Name} {husband.Surname}");
-        var wife = famaly.Where(w => w.Gender == Gender.female && w.Married && w.Age >= 20 && w.children).FirstOrDefault();
+        var wife = famaly.FirstOrDefault(w => w.Gender == Gender.female && w.Married && w.Age >= 20 && w.children);
         Console.WriteLine($"Жена:{wife.Name} {wife.Surname}");
 
 
@@ -93,7 +92,7 @@ internal class Program
 
 
 
-  
+
 
     }
 
