@@ -22,11 +22,15 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -36,10 +40,9 @@
               "RelativeDocumentMoniker": "Enum\\Gender.cs",
               "ToolTip": "C:\\CODE\\GBCsharp\\FamalyTreeConsoleApp\\Enum\\Gender.cs",
               "RelativeToolTip": "Enum\\Gender.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAANAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAIBGwAIAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T15:41:26.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T15:41:26.591Z"
             },
             {
               "$type": "Document",
@@ -49,7 +52,7 @@
               "RelativeDocumentMoniker": "FamilyMamber.cs",
               "ToolTip": "C:\\CODE\\GBCsharp\\FamalyTreeConsoleApp\\FamilyMamber.cs",
               "RelativeToolTip": "FamilyMamber.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAABKwBYAAAAhAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBRwBEAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T14:55:25.247Z",
               "EditorCaption": ""
@@ -60,9 +63,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\CODE\\GBCsharp\\FamalyTreeConsoleApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\CODE\\GBCsharp\\FamalyTreeConsoleApp\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAywEsAAAAuAAAA",
+              "ToolTip": "C:\\CODE\\GBCsharp\\FamalyTreeConsoleApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T14:54:37.457Z",
               "EditorCaption": ""

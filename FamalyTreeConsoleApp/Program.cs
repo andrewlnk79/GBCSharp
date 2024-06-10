@@ -67,11 +67,11 @@ namespace FamilyTreeConsoleApp
                 };
             var grandMa = Son.GetGrandMothers();
             var grandPa = Son.GetGrandFathers();
-            Console.WriteLine("Дедушки и бабушки:\n");
+            Console.WriteLine("Дедушки и бабушки:");
             Console.WriteLine(grandMa[0]?.Name + " " + grandMa[0]?.Surname + " \n" + grandPa[0]?.Name +
-                              grandPa[0]?.Surname + " \n");
+                              grandPa[0]?.Surname  );
             Console.WriteLine(grandMa[1]?.Name + " " + grandMa[1]?.Surname + " \n" + grandPa[1]?.Name + " " +
-                              grandPa[1]?.Surname + " \n");
+                              grandPa[1]?.Surname );
             Console.WriteLine("Женаты:");
             List<FamilyMamber> family = new();
             family.Add(Mother);

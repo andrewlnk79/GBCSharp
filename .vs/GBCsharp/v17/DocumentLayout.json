@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\CODE\\GBCsharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CODE\\GBCsharp\\FamalyTreeConsoleApp\\FAmalyMamber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FamalyTreeConsoleApp\\FAmalyMamber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CODE\\GBCsharp\\FamalyTreeConsoleApp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FamalyTreeConsoleApp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -25,8 +21,12 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\CODE\\GBCsharp\\FamalyTreeConsoleApp\\Program.cs",
               "RelativeDocumentMoniker": "FamalyTreeConsoleApp\\Program.cs",
@@ -35,19 +35,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T14:59:24.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FamalyMamber.cs",
-              "DocumentMoniker": "C:\\CODE\\GBCsharp\\FamalyTreeConsoleApp\\FamalyMamber.cs",
-              "RelativeDocumentMoniker": "FamalyTreeConsoleApp\\FamalyMamber.cs",
-              "ToolTip": "C:\\CODE\\GBCsharp\\FamalyTreeConsoleApp\\FamalyMamber.cs",
-              "RelativeToolTip": "FamalyTreeConsoleApp\\FamalyMamber.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T14:57:06.031Z",
               "EditorCaption": ""
             }
           ]
