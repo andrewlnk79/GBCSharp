@@ -1,9 +1,9 @@
 ﻿using FamilyTreeConsoleApp.Enum;
 
 namespace FamilyTreeConsoleApp
-{
-    internal class FamilyMamber
     {
+    internal class FamilyMamber
+        {
         internal int Age { get; set; }
         internal string Name { get; set; }
         internal string Surname { get; set; }
@@ -16,17 +16,18 @@ namespace FamilyTreeConsoleApp
         internal FamilyMamber Wife { get; set; }
 
         internal FamilyMamber?[] GetGrandFathers()
-        {
+            {
             return new[] { Father?.Father, Mother?.Father };
-        }
+            }
+
 
         internal FamilyMamber?[] GetGrandMothers()
-        {
+            {
             return new[] { Mother?.Mother, Father?.Mother };
-        }
+            }
 
+        }
     }
-}
 
 
 
